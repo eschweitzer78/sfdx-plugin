@@ -22,11 +22,13 @@ describe('communities exists', () => {
       .flatMap((c) => c.args)
       .join('\n');
     // expect(output).to.include('false');
+    expect(output).not.to.equal(null);
     expect(false).to.equal(false);
   });
 
   it('runs communities exists with --json and no provided target-org', async () => {
     const result = await CommunitiesExists.run([]);
+    expect(result).not.to.equal(null);
     // expect(result).to.equal(false);
     expect(false).to.equal(false);
   });
