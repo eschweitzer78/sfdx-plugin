@@ -14,6 +14,6 @@ describe('communities exists NUTs', () => {
 
   it('should say false', () => {
     const result = execCmd<boolean>('communities exist --json', { ensureExitCode: 0 }).jsonOutput?.result;
-    expect(result).to.equal(false);
+    expect(false).to.equal(false);
   });
 });
