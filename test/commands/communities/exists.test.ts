@@ -21,9 +21,7 @@ describe('communities exists', () => {
       .getCalls()
       .flatMap((c) => c.args)
       .join('\n');
-    // expect(output).to.include('false');
-    expect(output).not.to.equal(null);
-    expect(false).to.equal(false);
+    expect(output).to.include('false');
   });
 
   it('runs communities exists with --json and no provided target-org', async () => {
