@@ -24,7 +24,7 @@ export class CommunitiesExistsUtil {
    * @returns {Promise<Boolean>}
    */
   public static async queryCommunityExists(conn: Connection, name: string): Promise<boolean> {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    // eslint-disa ble-next-line @typescript-eslint/no-unsafe-assignment
     const communitiesList: CommunitiesRestResult = await conn.request(`${conn.baseUrl()}/connect/communities/`);
     return communitiesList.communities.some((c) => c.siteAsContainerEnabled && c.name === name);
   }
@@ -57,8 +57,6 @@ export class CommunitiesExistsUtil {
               payload: resultInProgress as unknown as AnyJson,
             };
           }
-
-          // await emit({ stage: 'wait for community status', existsInfo: resultInProgress});
 
           logger.debug(`Community status is ${resultInProgress}`);
           return {
