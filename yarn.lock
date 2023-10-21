@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10c0
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -523,40 +523,40 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eschweitzer78/sfdx-plugin@workspace:."
   dependencies:
-    "@oclif/core": "npm:^2.11.8"
-    "@salesforce/cli-plugins-testkit": "npm:^4.3.0"
-    "@salesforce/core": "npm:^5.2.0"
-    "@salesforce/dev-config": "npm:^4.0.1"
-    "@salesforce/dev-scripts": "npm:^5.7.0"
-    "@salesforce/kit": "npm:^3.0.6"
-    "@salesforce/prettier-config": "npm:^0.0.3"
-    "@salesforce/sf-plugins-core": "npm:^3.1.14"
-    "@salesforce/ts-sinon": "npm:^1.4.14"
-    "@salesforce/ts-types": "npm:^2.0.7"
-    "@swc/core": "npm:^1.3.19"
-    "@types/inquirer": "npm:^9.0.3"
-    "@typescript-eslint/eslint-plugin": "npm:^5.59.8"
-    "@typescript-eslint/parser": "npm:^5.62.0"
-    chai: "npm:^4.3.6"
-    eslint: "npm:^8.47.0"
-    eslint-config-prettier: "npm:^8.5.0"
-    eslint-config-salesforce: "npm:^2.0.1"
-    eslint-config-salesforce-typescript: "npm:^1.1.2"
-    eslint-plugin-import: "npm:2.27.5"
-    eslint-plugin-jsdoc: "npm:^46.4.6"
-    eslint-plugin-sf-plugin: "npm:^1.16.2"
-    husky: "npm:^7.0.4"
-    mocha: "npm:^9.2.2"
-    nyc: "npm:^15.1.0"
-    oclif: "npm:^3.9.1"
-    prettier: "npm:^2.8.8"
-    pretty-quick: "npm:^3.1.3"
-    shx: "npm:0.3.4"
-    sinon: "npm:10.0.0"
-    ts-node: "npm:^10.9.1"
-    tslib: "npm:^2"
-    typescript: "npm:^5.1.6"
-    wireit: "npm:^0.10.0"
+    "@oclif/core": ^2.11.8
+    "@salesforce/cli-plugins-testkit": ^4.4.10
+    "@salesforce/core": ^5.2.0
+    "@salesforce/dev-config": ^4.0.1
+    "@salesforce/dev-scripts": ^5.7.0
+    "@salesforce/kit": ^3.0.6
+    "@salesforce/prettier-config": ^0.0.3
+    "@salesforce/sf-plugins-core": ^3.1.14
+    "@salesforce/ts-sinon": ^1.4.14
+    "@salesforce/ts-types": ^2.0.7
+    "@swc/core": ^1.3.19
+    "@types/inquirer": ^9.0.3
+    "@typescript-eslint/eslint-plugin": ^5.59.8
+    "@typescript-eslint/parser": ^5.62.0
+    chai: ^4.3.6
+    eslint: ^8.47.0
+    eslint-config-prettier: ^8.5.0
+    eslint-config-salesforce: ^2.0.1
+    eslint-config-salesforce-typescript: ^1.1.2
+    eslint-plugin-import: 2.27.5
+    eslint-plugin-jsdoc: ^46.4.6
+    eslint-plugin-sf-plugin: ^1.16.2
+    husky: ^7.0.4
+    mocha: ^9.2.2
+    nyc: ^15.1.0
+    oclif: ^3.9.1
+    prettier: ^2.8.8
+    pretty-quick: ^3.1.3
+    shx: 0.3.4
+    sinon: 10.0.0
+    ts-node: ^10.9.1
+    tslib: ^2
+    typescript: ^5.1.6
+    wireit: ^0.10.0
   languageName: unknown
   linkType: soft
 
@@ -1283,20 +1283,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@salesforce/cli-plugins-testkit@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "@salesforce/cli-plugins-testkit@npm:4.3.0"
+"@salesforce/cli-plugins-testkit@npm:^4.4.10":
+  version: 4.4.10
+  resolution: "@salesforce/cli-plugins-testkit@npm:4.4.10"
   dependencies:
-    "@salesforce/core": "npm:^5.2.0"
-    "@salesforce/kit": "npm:^3.0.9"
-    "@salesforce/ts-types": "npm:^2.0.6"
-    "@types/shelljs": "npm:^0.8.12"
-    debug: "npm:^4.3.1"
-    jszip: "npm:^3.10.1"
-    shelljs: "npm:^0.8.4"
-    strip-ansi: "npm:6.0.1"
-    ts-retry-promise: "npm:^0.7.0"
-  checksum: e872f7e8522b3574ae3ed51ae0df189915a2d4bedb31228f08594b5ae53c7bdb7fb23e2dd038406e0ca3688d6052ad8549d8d084e8036f791a2de1112e3d8324
+    "@salesforce/core": ^5.3.10
+    "@salesforce/kit": ^3.0.13
+    "@salesforce/ts-types": ^2.0.6
+    "@types/shelljs": ^0.8.14
+    debug: ^4.3.1
+    jszip: ^3.10.1
+    shelljs: ^0.8.4
+    strip-ansi: 6.0.1
+    ts-retry-promise: ^0.7.1
+  checksum: 8/cc216e5271e95e9e8859e17a5af87709a3e04f1e5d1fde6fff35e41ca6d5c976957e424772f6c68f563544f81f7b10d8694d8f2cb95d81db9f14d7872d4b388e
   languageName: node
   linkType: hard
 
@@ -1322,6 +1322,32 @@ __metadata:
     proper-lockfile: "npm:^4.1.2"
     ts-retry-promise: "npm:^0.7.0"
   checksum: 98b45fb8ec31a754c40352958cbb2a8409585da6c0f0f8d3b561c695ba28e3db7e66ef306d0d6f1584c07c0ce1f3634cfd3ed0bb736ed36243a4846878ef4d52
+  languageName: node
+  linkType: hard
+
+"@salesforce/core@npm:^5.3.10":
+  version: 5.3.10
+  resolution: "@salesforce/core@npm:5.3.10"
+  dependencies:
+    "@salesforce/kit": ^3.0.13
+    "@salesforce/schemas": ^1.6.0
+    "@salesforce/ts-types": ^2.0.8
+    "@types/semver": ^7.5.3
+    ajv: ^8.12.0
+    change-case: ^4.1.2
+    faye: ^1.4.0
+    form-data: ^4.0.0
+    js2xmlparser: ^4.0.1
+    jsforce: ^2.0.0-beta.28
+    jsonwebtoken: 9.0.2
+    jszip: 3.10.1
+    pino: ^8.15.6
+    pino-abstract-transport: ^1.0.0
+    pino-pretty: ^10.2.3
+    proper-lockfile: ^4.1.2
+    semver: ^7.5.4
+    ts-retry-promise: ^0.7.1
+  checksum: 8/4a195a0cdaa3efeca1ba1a055f9031c3d8f8399c60aa5a25d34e1cf0fd7dc94b1ece7fae59ab86ba562d3cb3ac73fcada8c6b2acabe8c4a88ea4875ca1488224
   languageName: node
   linkType: hard
 
@@ -1379,7 +1405,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@salesforce/kit@npm:^3.0.6, @salesforce/kit@npm:^3.0.9":
+"@salesforce/kit@npm:^3.0.13":
+  version: 3.0.14
+  resolution: "@salesforce/kit@npm:3.0.14"
+  dependencies:
+    "@salesforce/ts-types": ^2.0.8
+    tslib: ^2.6.2
+  checksum: 8/6f17c8e10539ca0055615f55800a12dd700116b621b7125d521ca3ac43cb3ca95ca7184aca7c3bbc54b77018e74c95fef219ac78195a9b9d98ca588f9cdfa91c
+  languageName: node
+  linkType: hard
+
+"@salesforce/kit@npm:^3.0.6":
   version: 3.0.9
   resolution: "@salesforce/kit@npm:3.0.9"
   dependencies:
@@ -1443,6 +1479,15 @@ __metadata:
   dependencies:
     tslib: "npm:^2.6.2"
   checksum: 706b3335431715e4fb96ed6a479b7b5840f5273fcca3d414c10e6d22c780a72ec424971424e0742f9c9329f6a08a058b09b2d3e59f33baaa2381c9dd0c8a4f83
+  languageName: node
+  linkType: hard
+
+"@salesforce/ts-types@npm:^2.0.8":
+  version: 2.0.9
+  resolution: "@salesforce/ts-types@npm:2.0.9"
+  dependencies:
+    tslib: ^2.6.2
+  checksum: 8/03880bbcc71d5c469efc92ffb4c169346918a6518e2e8a3f1b7f810a1ffdf9d9adf97a5ad75c4ab99b2b8cd19263f09b8284f6cd8c2f5b1a3f93eee52268a388
   languageName: node
   linkType: hard
 
@@ -1869,13 +1914,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/shelljs@npm:^0.8.12":
-  version: 0.8.12
-  resolution: "@types/shelljs@npm:0.8.12"
+"@types/semver@npm:^7.5.3":
+  version: 7.5.4
+  resolution: "@types/semver@npm:7.5.4"
+  checksum: 8/120c0189f6fec5f2d12d0d71ac8a4cfa952dc17fa3d842e8afddb82bba8828a4052f8799c1653e2b47ae1977435f38e8985658fde971905ce5afb8e23ee97ecf
+  languageName: node
+  linkType: hard
+
+"@types/shelljs@npm:^0.8.14":
+  version: 0.8.14
+  resolution: "@types/shelljs@npm:0.8.14"
   dependencies:
-    "@types/glob": "npm:~7.2.0"
-    "@types/node": "npm:*"
-  checksum: a29f5ef3d61b243e07f642dfb34471a1f2bde2883b217f83afab74a944aaafbf014ca15644cc543d68f6ea7e11e1241ce7e029e0e4555ef8e2869476b5993d47
+    "@types/glob": ~7.2.0
+    "@types/node": "*"
+  checksum: 8/d49ed5e5494e30a9d22c0d1104af8587a748da8ff372a6bb0aadf4329b4ae88360238473841f444a8eb067b8478829e55570c627c94f50ea45489bd36e99e567
   languageName: node
   linkType: hard
 
@@ -4694,9 +4746,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -6090,6 +6142,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsforce@npm:^2.0.0-beta.28":
+  version: 2.0.0-beta.28
+  resolution: "jsforce@npm:2.0.0-beta.28"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+    "@babel/runtime-corejs3": ^7.12.5
+    "@types/node": ^12.19.9
+    abort-controller: ^3.0.0
+    base64url: ^3.0.1
+    commander: ^4.0.1
+    core-js: ^3.6.4
+    csv-parse: ^4.8.2
+    csv-stringify: ^5.3.4
+    faye: ^1.4.0
+    form-data: ^4.0.0
+    fs-extra: ^8.1.0
+    https-proxy-agent: ^5.0.0
+    inquirer: ^7.0.0
+    multistream: ^3.1.0
+    node-fetch: ^2.6.1
+    open: ^7.0.0
+    regenerator-runtime: ^0.13.3
+    strip-ansi: ^6.0.0
+    xml2js: ^0.5.0
+  bin:
+    jsforce: bin/jsforce
+    jsforce-gen-schema: bin/jsforce-gen-schema
+  checksum: 8/4ac4595065dc81bf62931e2461471d0eeee8fc1b11ba973ed37fc87720739f88c0ec63aa889489425bbdacf69daa34fa63e1f15ba24b01752771378827e1355b
+  languageName: node
+  linkType: hard
+
 "json-buffer@npm:3.0.1":
   version: 3.0.1
   resolution: "json-buffer@npm:3.0.1"
@@ -6214,6 +6297,24 @@ __metadata:
     ms: "npm:^2.1.1"
     semver: "npm:^7.3.8"
   checksum: 3508912a0fb5ad06a09a79f655681f6fc389376fb8e7fdcaf367fbdd02e9fb5e11a7a4ff715cbe44d8be0e7a99319b03a7d34ef5daede61cf1f8d3519bbb08d6
+  languageName: node
+  linkType: hard
+
+"jsonwebtoken@npm:9.0.2":
+  version: 9.0.2
+  resolution: "jsonwebtoken@npm:9.0.2"
+  dependencies:
+    jws: ^3.2.2
+    lodash.includes: ^4.3.0
+    lodash.isboolean: ^3.0.3
+    lodash.isinteger: ^4.0.4
+    lodash.isnumber: ^3.0.3
+    lodash.isplainobject: ^4.0.6
+    lodash.isstring: ^4.0.1
+    lodash.once: ^4.0.0
+    ms: ^2.1.1
+    semver: ^7.5.4
+  checksum: 8/fc739a6a8b33f1974f9772dca7f8493ca8df4cc31c5a09dcfdb7cff77447dcf22f4236fb2774ef3fe50df0abeb8e1c6f4c41eba82f500a804ab101e2fbc9d61a
   languageName: node
   linkType: hard
 
@@ -6364,6 +6465,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.includes@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "lodash.includes@npm:4.3.0"
+  checksum: 8/71092c130515a67ab3bd928f57f6018434797c94def7f46aafa417771e455ce3a4834889f4267b17887d7f75297dfabd96231bf704fd2b8c5096dc4a913568b6
+  languageName: node
+  linkType: hard
+
+"lodash.isboolean@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "lodash.isboolean@npm:3.0.3"
+  checksum: 8/b70068b4a8b8837912b54052557b21fc4774174e3512ed3c5b94621e5aff5eb6c68089d0a386b7e801d679cd105d2e35417978a5e99071750aa2ed90bffd0250
+  languageName: node
+  linkType: hard
+
 "lodash.isfunction@npm:^3.0.9":
   version: 3.0.9
   resolution: "lodash.isfunction@npm:3.0.9"
@@ -6371,10 +6486,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.isinteger@npm:^4.0.4":
+  version: 4.0.4
+  resolution: "lodash.isinteger@npm:4.0.4"
+  checksum: 8/6034821b3fc61a2ffc34e7d5644bb50c5fd8f1c0121c554c21ac271911ee0c0502274852845005f8651d51e199ee2e0cfebfe40aaa49c7fe617f603a8a0b1691
+  languageName: node
+  linkType: hard
+
+"lodash.isnumber@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "lodash.isnumber@npm:3.0.3"
+  checksum: 8/913784275b565346255e6ae6a6e30b760a0da70abc29f3e1f409081585875105138cda4a429ff02577e1bc0a7ae2a90e0a3079a37f3a04c3d6c5aaa532f4cab2
+  languageName: node
+  linkType: hard
+
 "lodash.isplainobject@npm:^4.0.6":
   version: 4.0.6
   resolution: "lodash.isplainobject@npm:4.0.6"
   checksum: afd70b5c450d1e09f32a737bed06ff85b873ecd3d3d3400458725283e3f2e0bb6bf48e67dbe7a309eb371a822b16a26cca4a63c8c52db3fc7dc9d5f9dd324cbb
+  languageName: node
+  linkType: hard
+
+"lodash.isstring@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "lodash.isstring@npm:4.0.1"
+  checksum: 8/eaac87ae9636848af08021083d796e2eea3d02e80082ab8a9955309569cb3a463ce97fd281d7dc119e402b2e7d8c54a23914b15d2fc7fff56461511dc8937ba0
   languageName: node
   linkType: hard
 
@@ -6396,6 +6532,13 @@ __metadata:
   version: 4.6.2
   resolution: "lodash.mergewith@npm:4.6.2"
   checksum: 4adbed65ff96fd65b0b3861f6899f98304f90fd71e7f1eb36c1270e05d500ee7f5ec44c02ef979b5ddbf75c0a0b9b99c35f0ad58f4011934c4d4e99e5200b3b5
+  languageName: node
+  linkType: hard
+
+"lodash.once@npm:^4.0.0":
+  version: 4.1.1
+  resolution: "lodash.once@npm:4.1.1"
+  checksum: 8/d768fa9f9b4e1dc6453be99b753906f58990e0c45e7b2ca5a3b40a33111e5d17f6edf2f768786e2716af90a8e78f8f91431ab8435f761fef00f9b0c256f6d245
   languageName: node
   linkType: hard
 
@@ -8058,6 +8201,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pino-abstract-transport@npm:v1.1.0":
+  version: 1.1.0
+  resolution: "pino-abstract-transport@npm:1.1.0"
+  dependencies:
+    readable-stream: ^4.0.0
+    split2: ^4.0.0
+  checksum: 8/cc84caabee5647b5753ae484d5f63a1bca0f6e1791845e2db2b6d830a561c2b5dd1177720f68d78994c8a93aecc69f2729e6ac2bc871a1bf5bb4b0ec17210668
+  languageName: node
+  linkType: hard
+
 "pino-pretty@npm:^10.2.0":
   version: 10.2.0
   resolution: "pino-pretty@npm:10.2.0"
@@ -8079,6 +8232,30 @@ __metadata:
   bin:
     pino-pretty: bin.js
   checksum: 5259cf3ceb9e59b604f1c7a18d854b9bf6b4092ddf14d7dc11e04d34643f43b86bd398c0a579e70b10ecf34281103cfce01bfd82ab2cd482d28596ad7122558e
+  languageName: node
+  linkType: hard
+
+"pino-pretty@npm:^10.2.3":
+  version: 10.2.3
+  resolution: "pino-pretty@npm:10.2.3"
+  dependencies:
+    colorette: ^2.0.7
+    dateformat: ^4.6.3
+    fast-copy: ^3.0.0
+    fast-safe-stringify: ^2.1.1
+    help-me: ^4.0.1
+    joycon: ^3.1.1
+    minimist: ^1.2.6
+    on-exit-leak-free: ^2.1.0
+    pino-abstract-transport: ^1.0.0
+    pump: ^3.0.0
+    readable-stream: ^4.0.0
+    secure-json-parse: ^2.4.0
+    sonic-boom: ^3.0.0
+    strip-json-comments: ^3.1.1
+  bin:
+    pino-pretty: bin.js
+  checksum: 8/9182886855515000df2ef381762c69fc29dbdd9014a76839cc3d8a7a94ac96d4ce17423adb9ddd61eae78986bb0ff3a1d9e6e7aa55476c096a3dd4a0c89440e8
   languageName: node
   linkType: hard
 
@@ -8107,6 +8284,27 @@ __metadata:
   bin:
     pino: bin.js
   checksum: 0288488d0426b68d1e3a7e0f11eda6b3e8e4d7cd9f8aa6e090afe03e604fa5039be62397528d78d6f30735e6416a54b4e07881107ef80c125076191399283688
+  languageName: node
+  linkType: hard
+
+"pino@npm:^8.15.6":
+  version: 8.16.0
+  resolution: "pino@npm:8.16.0"
+  dependencies:
+    atomic-sleep: ^1.0.0
+    fast-redact: ^3.1.1
+    on-exit-leak-free: ^2.1.0
+    pino-abstract-transport: v1.1.0
+    pino-std-serializers: ^6.0.0
+    process-warning: ^2.0.0
+    quick-format-unescaped: ^4.0.3
+    real-require: ^0.2.0
+    safe-stable-stringify: ^2.3.1
+    sonic-boom: ^3.7.0
+    thread-stream: ^2.0.0
+  bin:
+    pino: bin.js
+  checksum: 8/c3af0d1d80d0a7ec59530e6c3668895ac813762829ea0b7e316057370f58011d09e128e67289665652904367a1f27f87cca4e564eb3ff2a0d46219f12fcf896e
   languageName: node
   linkType: hard
 
@@ -8616,16 +8814,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#~builtin<compat/resolve>":
   version: 1.22.2
-  resolution: "resolve@patch:resolve@npm%3A1.22.2#optional!builtin<compat/resolve>::version=1.22.2&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.2#~builtin<compat/resolve>::version=1.22.2&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.11.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: dcf068c4391941734efda06b6f778c013fd349cd4340f126de17c265a7b006c67de7e80e7aa06ecd29f3922e49f5561622b9faf98531f16aa9a896d22148c661
+  checksum: 8/66cc788f13b8398de18eb4abb3aed90435c84bb8935953feafcf7231ba4cd191b2c10b4a87b1e9681afc34fb138c705f91f7330ff90bfa36f457e5584076a2b8
   languageName: node
   linkType: hard
 
@@ -9089,6 +9287,15 @@ __metadata:
   dependencies:
     atomic-sleep: "npm:^1.0.0"
   checksum: c5d387d9e35726a60afe5b5c54317db2428158ecaf3769fb16418e50d2a47176cbd800bf664a410dc0aab0792b421d394ce6edaf63b796ac3c7986f01933cddd
+  languageName: node
+  linkType: hard
+
+"sonic-boom@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "sonic-boom@npm:3.7.0"
+  dependencies:
+    atomic-sleep: ^1.0.0
+  checksum: 8/528f0f7f7e09dcdb02ad5985039f66554266cbd8813f9920781607c9248e01f468598c1334eab2cc740c016a63c8b2a20e15c3f618cddb08ea1cfb4a390a796e
   languageName: node
   linkType: hard
 
@@ -9662,6 +9869,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ts-retry-promise@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "ts-retry-promise@npm:0.7.1"
+  checksum: 8/ff88b7687336dbb972c357bd5ee5ce4c06d8e55964e512cfbca4979108b2b2bb91369157472e6dd9f39592c994c8d592670760b3e223bc9adc36c6103235d9aa
+  languageName: node
+  linkType: hard
+
 "tsconfig-paths@npm:^3.14.1":
   version: 3.14.1
   resolution: "tsconfig-paths@npm:3.14.1"
@@ -9878,23 +10092,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^4.6.4 || ^5.0.0#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.1.6#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>, typescript@patch:typescript@npm%3A^4.6.4 || ^5.0.0#~builtin<compat/typescript>":
   version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#optional!builtin<compat/typescript>::version=5.1.6&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c2bded58ab897a8341fdbb0c1d92ea2362f498cfffebdc8a529d03e15ea2454142dfbf122dabbd9a5cb79b7123790d27def16e11844887d20636226773ed329a
+  checksum: 8/f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^4.9.5#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: e3333f887c6829dfe0ab6c1dbe0dd1e3e2aeb56c66460cb85c5440c566f900c833d370ca34eb47558c0c69e78ced4bfe09b8f4f98b6de7afed9b84b8d1dd06a1
+  checksum: 8/1f8f3b6aaea19f0f67cba79057674ba580438a7db55057eb89cc06950483c5d632115c14077f6663ea76fd09fce3c190e6414bb98582ec80aa5a4eaf345d5b68
   languageName: node
   linkType: hard
 
